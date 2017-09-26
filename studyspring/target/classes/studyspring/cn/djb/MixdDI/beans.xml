@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+  xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xmlns:c="http://www.springframework.org/schema/c"
+  xsi:schemaLocation="http://www.springframework.org/schema/beans 
+  http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- <bean class="studyspring.cn.djb.MixdDI.CDCon"/> -->
+
+	 <import resource="CdCon.xml"/>  
+	 <bean class="studyspring.cn.djb.MixdDI.CDPlayerCon"/> 
+	 <!-- 原来的是这样 -->
+	 <!--  <bean id= "cd" class = "studyspring.cn.djb.MixdDI.SgtPeppers">
+		<constructor-arg name="artist" value="pdd" /> 
+		<constructor-arg name="title" value="pdd'power"/>
+	</bean>   -->
+	<!-- <bean id= "cdplayer" class = "studyspring.cn.djb.MixdDI.CDPlayer">
+		<constructor-arg ref="cd" /> 
+	
+	</bean> -->
+	
+	
+	<!-- 	 <import resource="CDPlayerCon.xml"/> --> 
+	 
+	
+	
+	
+	
+</beans>
